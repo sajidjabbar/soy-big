@@ -1,0 +1,140 @@
+section.inner-banner-sec{
+    position: relative;
+}
+.inner-banner-head {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.faqs-sec{
+    margin-bottom: 100px;
+}
+.inner-banner-head h2 {
+    font-size: 51px;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+.heading_wrapper {
+    text-align: center;
+    margin: 90px 0px;
+}
+.heading_wrapper h3 {
+    font-size: 35px;
+    color: #000000;
+    font-family: "Work Sans";
+    font-weight: 600;
+}
+.heading_wrapper p {
+    margin: 0px 0px;
+    font-size: 16px;
+    color: #000000;
+    font-family: "Work Sans";
+    font-weight: 400;
+    padding: 0px 120px;
+
+}
+
+.form-heading h6 {
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 0;
+
+}
+.form-heading h4 {
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+.form-heading p {
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.form-heading {
+    margin-bottom: 40px;
+}
+.contact-form-wrapper .form-group .form-text input {
+    border-radius: 0px;
+    font-family: 'Work Sans';
+    margin: 10px 0px;
+}
+.contact-form-wrapper   textarea.form-control{
+    border-radius: 0px;
+    font-family: 'Work Sans';
+    resize: none;
+}
+.contact-form-wrapper {
+    margin-right: 120px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+.contact-form-wrapper button.form-btn {
+    background: var(--first-color);
+    border-radius: 0px;
+    color: #fff;
+    font-family: 'Work Sans';
+    font-size: 17px;
+    border: 1px solid #fff;
+    transition: all 0.4s ease-in-out;
+}
+
+
+div#accordion .card-header {
+    background: transparent;
+    border: none;
+    padding: 17px 0px;
+  }
+  div#accordion .card {
+    /* border-top: 1px solid #777575 !important; */
+    border-radius: 0px;
+    border-bottom: 1px solid #000000 !important;
+    border: none;
+    border-color: #A0A0A0 !important;
+    
+  }
+  div#accordion a.card-link {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.card-header span {
+    font-size: 17px;
+    color: #000000;
+    font-family: "Work Sans";
+    font-weight: 600;
+}
+  .faq-wrapper .card-body {
+    padding: 20px;
+    font-size: 14px;
+    color: #afafaf;
+  }
+  .faq .card .card-body {
+    color: #000000;
+    padding-right: 11%;
+    padding: 20px !important;
+}
+  a.card-link[aria-expanded="true"] .fa-plus::before {
+    content: "\f068";
+  }
+  div#accordion a.card-link:active,
+  div#accordion a.card-link:focus {
+    text-decoration: none;
+  }
+ 

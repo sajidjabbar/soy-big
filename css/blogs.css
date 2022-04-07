@@ -1,0 +1,108 @@
+/* blogs start here */
+section.inner-banner-sec{
+    position: relative;
+}
+.inner-banner-head {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-banner-head h2 {
+    font-size: 51px;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+.heading_wrapper {
+    text-align: center;
+    margin: 0px 0px;
+    margin: 70px 0px;
+}
+.heading_wrapper h3 {
+    color: #000000;
+    font-family:'Work Sans';
+    font-weight: 600;
+    font-size: 35px;
+}
+.platform {
+    margin: -10px 0px;
+}
+.platform h6 {
+    color: #000000;
+    font-family:'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    
+}
+.platform h5{
+    color: #000000;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 40px;
+    margin: 20px 0px;
+    padding-right: 80px;
+}
+ 
+.platform-btn {
+    margin-top: 30px;
+}
+.platform-btn a {
+    background-color: #31007B;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 10px 32px;
+}
+.blog_sec {
+    padding: 60px 0;
+    background: #fbf8ff;
+  }
+  .blog_sec .heading_wrapper {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .blogs {
+    margin-bottom: 20px;
+  }
+  .blogs .img_box img {
+    width: 100%;
+  }
+  .blogs .blog_content {
+    background: #ffffff;
+    padding: 15px 15px;
+    box-shadow: 0px 0px 8px #ddd;
+  }
+  .blogs .blog_content p {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .blogs .blog_content a.lnk {
+    color: #31007b;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .blog_sec .button-group {
+    text-align: center;
+    padding-top: 40px;
+  }
+  .blog_sec .button-group a.btn {
+    padding: 10px 60px;
+    border: 2px solid #fbf8ff;
+  }
+  .blog_sec .button-group a.btn:hover {
+    box-shadow: 0px 0px 0px 2px #31007b;
+  }
+  /* Blog Sec Css End Here */

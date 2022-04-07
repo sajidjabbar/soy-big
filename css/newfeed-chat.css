@@ -1,0 +1,461 @@
+.conversation {
+    padding-top: 70px;
+  }
+  .all-conversations-plu-btns {
+    display: flex;
+    justify-content: space-between;
+  }
+  .new-chat-group-chat-btn {
+    display: flex;
+  }
+  .for-coversations-heading h3 {
+    color: #228dd3;
+    font-family: "basement";
+    font-size: 40px;
+  }
+  
+  .Create-Group-Chat button {
+    /* border: 1px solid #228dd3; */
+    color: #9278B9;
+    font-size: 20px;
+    font-family: "Work Sans";
+    font-weight: 400;
+    height: 63px;
+    width: 100%;
+    background-color: #31007B;
+    text-align: start;
+
+}
+  .Create-Group-Chat button img {
+    margin-right: 10px;
+  }
+  .new-chat {
+    margin-left: 25px;
+  }
+  .new-chat button img {
+    margin-right: 10px;
+  }
+  .new-chat button {
+    border: 0px;
+    color: #ffffff;
+    font-size: 16px;
+    height: 50px;
+    width: 220px;
+    background-color: #228dd3;
+  }
+  .all-friends {
+    height: 740px;
+    overflow: auto;
+    background: #ebebeb;
+    box-shadow: -9px -5px 47px -1px rgb(0 0 0 / 12%)
+  }
+  .message-sender {
+    margin-left: 12px;
+  }
+  .chat-main.active {
+    padding: 19px 7px;
+    position: relative;
+    background-color: #EFEFEF;
+  }
+  .for-side {
+    display: flex;
+  }
+  .chat-main.active .for-side .message-sender .name-of-sender {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "aileron";
+    color: #000000;
+  }
+  .text-number {
+    position: absolute;
+    right: 9px;
+    bottom: 0;
+    border-radius: 9px;
+    background: #31007B;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 16px;
+    margin-bottom: 12px;  
+}
+span.numbering {
+  font-size: 9px;
+  font-weight: 700;
+  font-family: "aileron";
+  color: #ffffff;
+}
+  .chat-main.active .for-side .latest-message {
+    font-size: 13px;
+    font-family: "aileron";
+    color: #000000;
+    font-weight: 300;
+    margin: -2px 0px;
+    display: block;
+    line-height: 18px;
+}
+  .chat-main.active .for-side .sended-on {
+    color: #787878;
+    font-size: 9px;
+    font-family: "aileron";
+    position: absolute;
+    right: 10px;
+    font-weight: 400;
+  }
+  .img-friend {
+    position: relative;
+  }
+  .active-friend {
+    position: absolute;
+    top: 23px;
+    right: -2px;
+  }
+  .all-chats {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .chat-main {
+    padding: 16px 7px;
+    position: relative;
+    background:white;
+    box-shadow: 11px -1px 5px -11px rgba(0,0,0,0.51);  
+  }
+  .chat-main .for-side .message-sender .name-of-sender {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Work Sans";
+  }
+  .chat-main .for-side .latest-message {
+    font-size: 11px;
+    font-family: "Work Sans";
+    color: #000000;
+    font-weight: 300;
+    display: block;
+    line-height: 15px;
+    margin: 3px 1px;
+}
+  .chat-main .for-side .sended-on {
+    position: absolute;
+    right: 18px;
+  }
+  .chat-main.active .for-side .sended-on span {
+    color: #787878;
+    font-size: 9px;
+    font-family: "Work Sans";
+    font-weight: 400;
+  }
+  .chat-main .for-side .sended-on span {
+    color: #787878;
+    font-size: 9px;
+    font-family: "Work Sans";
+    /* position: absolute; */
+    right: 18px;
+    font-weight: 400;
+  }
+  .my-chat {
+    box-shadow: -9px -11px 65px 19px rgb(0 0 0 / 8%);
+    background-color: #FFFFFF;
+    position: relative;
+    height: 640px;
+    overflow: auto;
+  
+  }
+  .chat-main1.active {
+    border-bottom: 1px solid #C6C6C6;
+    padding: 5px 20px; 
+}
+  span.name-of-sender.d-block {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Work Sans";
+    color: #000000;
+  }
+  span.latest-message {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Work Sans";
+    color: #969696;
+  }
+  .the-chats {
+    height: 100%;
+    position: relative;
+    padding-bottom: 100px;
+    
+  }
+  .my-chat-inner {
+    height: 100%;
+  }
+  .send-message {
+    text-align: right;
+    margin: 12px 40px 0 auto;
+    display: table;
+  }
+  .message-body {
+    padding: 10px 19px;
+    background-color:#31007B;
+    font-family: "Work Sans";
+    text-align: left;
+  }
+  .message-body span {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "Work Sans";
+  }
+  .send-on {
+    text-align: left;
+    clear: both;
+    
+  }
+  .recieve-from-img img {
+    height: 5%;
+    width: 10%;
+    margin: 10px 0px;
+
+}
+span.img-arrow img {
+  padding-bottom: 7px;
+}
+.recive-message {
+  margin-top: 30px;
+  padding: 0px 30px;
+  display: table;
+}
+  .send-on span {
+    color: #000000;
+    font-size: 10px;
+    opacity: 0.5;
+  }
+  .recive-message {
+    margin-top: 30px;
+  }
+  .message-recieved {
+    margin: 0 auto 0 0;
+    /* display: table; */
+  }
+  .that-message {
+    background-color: #d9d9d9;
+    padding: 10px 20px;
+  }
+  .that-message span {
+    color: #000000;
+    font-family: "Work Sans";
+    font-size: 13px;
+    display: block;
+    font-weight: 300;
+  }
+  
+  .recieved-on {
+    text-align: right;
+  }
+  .recieved-on span {
+    color: #000000;
+    font-size: 10px;
+    opacity: 0.5;
+  }
+  .send-new-message {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    display: flex;
+    left: 0;
+    height: 12%;
+    margin: -20px 0px;
+    background: #FFFFFF;
+    box-shadow: -9px -11px 65px 19px rgb(0 0 0 / 8%);
+}
+  .for-new-message {
+    width: 98%;
+    margin-right: 1%;
+  }
+  .for-new-message input {
+    width: 98%;
+    height: 40px;
+    padding: 0px 15px;
+    margin: 25px 30px;
+    border: 1px solid #D6D6D6;
+    background-image: url(../img/attachments.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+    background-size: 10px;
+}
+  .for-new-message input::placeholder {
+    color: #BEBCBC;
+    font-size: 15px;
+    font-family: "Work Sans";
+    padding-left: 10px;
+    opacity: 0.5;
+  }
+  .for-send-msg-btn button {
+    background-color: #31007B;
+    border: 0px;
+    width: 100px;
+    height: 40px;
+    margin: 25px 26px;
+    color: #ffffff;
+    font-family: "Work Sans";
+    font-size: 16px;
+}
+  
+  /* Modal Start Here */
+  
+  .modal-content {
+    background-color: #ebebeb !important;
+    margin-left: -84px;
+    width: 125%;
+  }
+  .modal-body {
+    padding: 0px !important;
+  }
+  
+  #exampleModalLabel {
+    text-align: center !important;
+    width: 100%;
+    color: #343434;
+    font-size: 20px;
+    font-family: "basement";
+  }
+  .for-group-name {
+    display: flex;
+    padding: 1rem;
+  }
+  .enter-group-name {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .enter-group-name input {
+    background-color: #ebebeb;
+    border: 0px;
+    height: 57px;
+    width: 350px;
+    border-bottom: 1px solid #7070703b;
+  }
+  .friends-list {
+    margin-top: 50px;
+  }
+  .img-of-my-friend {
+    position: relative;
+  }
+  .is-online {
+    position: absolute;
+    top: 5px;
+    right: 2px;
+  }
+  .add-this-friends {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #7070703b;
+    padding: 15px 25px;
+  }
+  .fiend-info {
+    display: flex;
+    align-items: center;
+  }
+  .name-of-my-friend {
+    margin-left: 15px;
+  }
+  .name-of-my-friend span {
+    color: #000000;
+    font-family: "aileron-light";
+    font-size: 18px;
+  }
+  .add-this-friend input {
+    border: 10px solid #228dd3;
+    border-radius: 50%;
+  }
+  .create-group-btn {
+    margin-top: 95px;
+  }
+  .create-group-btn button {
+    width: 100%;
+    background-color: #228dd3;
+    border: 0px;
+    height: 51px;
+    color: #ffffff;
+    font-family: "aileron-regular";
+    font-size: 16px;
+  }
+  .all-friends::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+  }
+  .my-chat::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+  }
+  @media screen and (max-width: 900px) {
+    .modal-content {
+      margin-left: 0px;
+      width: 100%;
+    }
+  
+    .all-conversations-plu-btns {
+      display: block;
+      justify-content: unset;
+    }
+  }
+  @media screen and (max-width: 555px) {
+    .my-chat {
+      padding: 30px 0px 0px 0px;
+    }
+    .chat-main.active .for-side .sended-on {
+     margin: -71px -10px;
+  }
+    .enter-group-name input {
+      width: 320px;
+    }
+    .Create-Group-Chat button {
+      width: 100%;
+    }
+    .sended-on {
+      margin-bottom: 20px;
+    }
+    .new-chat {
+      margin-left: unset;
+    }
+    .for-side {
+      display: block;
+    }
+    .new-chat-group-chat-btn {
+      display: block;
+    }
+    .for-coversations-heading h3 {
+      color: #228dd3;
+      font-family: "basement";
+      font-size: 20px;
+    }
+    .for-space-bw-col {
+      margin-top: 30px !important;
+      padding: 0px !important;
+    }
+    .the-chats {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .send-new-message {
+      position: unset;
+      display: block;
+      padding: 0;
+    }
+    .for-new-message {
+      width: 100%;
+      margin-right: 0%;
+    }
+    .for-send-msg-btn {
+      margin-top: 10px;
+    }
+    .for-send-msg-btn button {
+      width: 100%;
+    }
+    .new-chat {
+      margin-top: 10px;
+    }
+    .new-chat button {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 501px) {
+    .for-group-name {
+      display: block;
+    }
+  }
