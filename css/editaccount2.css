@@ -1,0 +1,250 @@
+/* Profile Css Start Here */
+.profile_sec {
+    padding: 60px 0;
+    margin-bottom: 81px;
+}
+
+.profile_sec .profile-details {
+    background: #fff;
+    padding: 0px 25px 25px;
+    width: 100%;
+}
+
+.profile_sec .profile-details .profile-img {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.profile-img figure img {
+    width: 100%;
+}
+.form-control::placeholder {
+    font-size: 15px;
+    color: #C9C9C9;
+    font-weight: 400;
+    font-family: "Work Sans";
+}
+.profile-about li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+.profile-about li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:400;
+    font-family: "Aileron";
+    color: #A1A1A1;
+}
+.profile-about li :active::before{
+    font-family: "FontAwesome";
+    content: "\f0da ";
+    font-size: 25px;
+    color: #31007B;
+    
+}
+.profile-about li a:active{
+    color: #000000;
+}
+
+.profile_sec .profile-details .profile-about {
+    padding-top: 10px;
+    margin-left: -40px;
+}
+.profile_sec .profile-details .profile-name {
+
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 4px;
+}
+
+.profile_sec .profile-details .profile-name h3 {
+    font-weight: 500;
+    font-family: "Work Sans";
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.profile_sec .profile-details .profile-name p {
+    font-family: "Work Sans";
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.profile_sec .profile-details .profile-info .flexDv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 8px;
+}
+.foam-btns i.fa.fa-pencil {
+    margin-left: 10px;
+}
+
+.profile_sec .profile-details .profile-about {
+    padding-top: 10px;
+    line-height: 26px;
+}
+.profile_sec .profile-details .profile-img {
+    text-align: center;
+    padding-bottom: 15px;
+    position: relative;
+}
+.profile-img figure.img {
+    position: absolute;
+    left: 107px;
+    top: 102px;
+}
+.profile_sec .profile-details .profile-about h4.title {
+    font-family: "Aileron";
+    font-size: 18px;
+    font-weight: 200;
+    color: #000000;
+}
+.foam-btns button {
+    background-color: #31007b;
+    color: #fff;
+    font-size: 17px;
+    padding: 3px 19px;
+    border: 1px solid #31007b;
+    border-radius: 0;
+    font-weight: 500 !important;
+    
+    margin: -40px 20px;
+    float: right;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+}
+
+.profile_sec .profile-details .profile-about p {
+    font-family: "Work sans";
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #000000;
+}
+p{
+    opacity: 0.8;
+    padding: 5px 0;
+}
+.fa-play:before {
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.form-container {
+    width: 100%;
+    height: 400px;
+    padding-left: 51px;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 36px 57px 35px 90px;
+}
+
+.form-container h3 {
+    margin-top: 20px;
+}
+
+.name .form-control {
+    width: 92%;
+}
+
+.problems .form-control {
+    width: 55%;
+}
+.phone .form-control {
+    width: 50%;
+}
+::placeholder {
+    font-size: 13px;
+}
+
+label {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-control {
+        width: 100%;
+        resize: none;
+
+    }
+
+    .problems .form-control {
+        width: 100%;
+    }
+
+    ::placeholder {
+        font-size: 13px;
+    }
+
+    label {
+        font-size: 13px;
+        color: #000000;
+        font-weight: 500;
+    }
+    .form-container {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Profile Css End Here */
+
+
+/* Post Css End Here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Post Css End Here */
+
+/* Sidebar Css Start Here */
+/* Sidebar Css End Here */
+
+/* Forum Css End Here */

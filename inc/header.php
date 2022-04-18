@@ -23,12 +23,24 @@
             <div class="col-lg-6 col-8">
                 <div class="right_menus">
                     <ul class="action_links">
-                        <li class="back"><a href="#"><img src="img/path-15.png" alt=""><span
-                                    class="dot"></span></a>
+                        <li class="back"><a href="#"><img src="img/path 15.png" alt=""><span class="dot"></span></a>
                         </li>
                         <li class="back bell-icon"><a href="#"><i class="fa fa-bell" aria-hidden="true"></i><span
                                     class="dot"></span></a></li>
-                        <li class="profile"><a href="profile.php"><img class="img-fluid" src="img/profile.png"></a></li>
+                        <li class="profile">
+                            <div class="dropdown">
+                                <img src="img/Ellipse 12.png" id="dropdownMenu" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                                    <i class="fa fa-caret-up" aria-hidden="true"></i>
+                                    <a class="dropdown-item1" href="profiles.php"><i class="fa fa-user" aria-hidden="true"></i>
+                                        profile</a>
+                                        
+                                    <a class="dropdown-item" href="editprofile.php"><i class="fa fa-th-large" aria-hidden="true"></i>
+                                        Dashboard</a>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                     <div class="button-group">
                         <a href="signup-as-lawfirm.php" class="btn transparent">Join as a Lawfirm </a>

@@ -39,7 +39,7 @@
                         Vulputate Odio Ut Enim Blandit
                         Volutpat Maecenas.</h5>
                     <div class="platform-btn">
-                        <a href="">Report Now</a>
+                        <a href="blogs-detail.php">Read Now</a>
                     </div>
                 </div>
             </div>

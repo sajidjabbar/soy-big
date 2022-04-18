@@ -1,0 +1,234 @@
+/* Profile Css Start Here */
+.profile_sec {
+    padding: 60px 0;
+    margin-bottom: 250px;
+}
+
+.profile_sec .profile-details {
+    background: #fff;
+    padding: 11px 26px 25px;
+    width: 100%;
+}
+
+.profile_sec .profile-details .profile-img {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.profile-img figure img {
+    width: 80%;
+}
+
+.profile_sec .profile-details .profile-name {
+
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 4px;
+}
+
+.profile_sec .profile-details .profile-name h3 {
+    font-weight: 600;
+    font-family: "Work Sans";
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.profile_sec .profile-details .profile-name p {
+    font-family: "Work Sans";
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.profile_sec .profile-details .profile-info .flexDv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 8px;
+}
+
+.profile_sec .profile-details .profile-about {
+    padding-top: 20px;
+}
+
+.profile_sec .profile-details .profile-about h4.title {
+    font-family: "Aileron";
+    font-size: 18px;
+    font-weight: 200;
+    color: #000000;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+}
+
+.profile_sec .profile-details .profile-about p {
+    font-family: "Work sans";
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.fa-play:before {
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+.foam-btns button {
+    background-color: #31007b;
+    color: #fff;
+    font-size: 17px;
+    padding: 3px 19px;
+    border: 1px solid #31007b;
+    border-radius: 0;
+    font-weight: 500 !important;
+    margin-top: -40px;
+    float: right;
+}
+.form-container {
+    width: 100%;
+    padding-left: 51px;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 6px 57px 25px;
+}
+.profile_sec .profile-details .profile-about {
+    margin-left: -40px;
+}
+.profile-about li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+.profile-about li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:400;
+    font-family: "Aileron";
+    color: #A1A1A1;
+}
+.profile-about li :active::before{
+    font-family: "FontAwesome";
+    content: "\f0da ";
+    font-size: 25px;
+    color: #31007B;
+    
+}
+.profile-about li a:active{
+    color: #000000;
+}
+.form-container h3 {
+    margin-top: 20px;
+    margin-left: 37px;
+}
+.form-control {
+    width: 89%;
+    margin: -10px 37px;
+    width: 87%;
+    resize: none;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Work Sans";
+    color: #DCDCDC !important;
+}
+.problems .form-control {
+    width: 64%;
+    resize: none;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Work Sans";
+    color: #DCDCDC !important;
+}
+
+input#exampleFormControlInput1 ::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Work Sans";
+    color: #DCDCDC !important;
+}
+
+label {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+    margin-left: 40px;
+    line-height: 41px;
+}
+
+
+@media (max-width: 768px) {
+    .name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-control {
+        width: 100%;
+        resize: none;
+
+    }
+
+    .problems .form-control {
+        width: 100%;
+    }
+
+    ::placeholder {
+        font-size: 13px;
+    }
+
+    label {
+        font-size: 13px;
+        color: #000000;
+        font-weight: 500;
+    }
+}
+
+/* Profile Css End Here */
+
+
+/* Post Css End Here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Post Css End Here */
+
+/* Sidebar Css Start Here */
+/* Sidebar Css End Here */
+
+/* Forum Css End Here */
