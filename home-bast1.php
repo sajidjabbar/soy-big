@@ -3,70 +3,40 @@
 <!-- App Include Here -->
 
 <!-- Stylesheet -->
-<link rel="stylesheet" href="css/home-best.css">
+<link rel="stylesheet" href="css/home-best1.css">
 <link rel="stylesheet" href="css/category-detail.css">
 <!-- Stylesheet -->
 
 <!-- Profile Sec Start Here -->
 <section class="profile_sec ">
     <div class="container">
-        <div class="logo-icon">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="icon-hreading">
-                        <figure>
-                            <img src="img/Group-4702.png" alt="">
-                        </figure>
-                        <h4>Eco Focus</h4>
-                        <div class="stars " class="btn btn-secondary dropdown-toggle" type="button"
-                            id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
-                            <form action=""> <input class="star star-5" id="star-5" type="radio" name="star" /> <label
-                                    class="star star-5" for="star-5"></label> <input class="star star-4" id="star-4"
-                                    type="radio" name="star" /> <label class="star star-4" for="star-4"></label> <input
-                                    class="star star-3" id="star-3" type="radio" name="star" /> <label
-                                    class="star star-3" for="star-3"></label> <input class="star star-2" id="star-2"
-                                    type="radio" name="star" /> <label class="star star-2" for="star-2"></label> <input
-                                    class="star star-1" id="star-1" type="radio" name="star" /> <label
-                                    class="star star-1" for="star-1"></label> </form>
-                        </div>
+        <div class="row">
+            <div class="col-lg-3 px-0">
+                <div class="profile-details">
+                    <div class="profile-img">
+                        <figure><img src="img/Group 48012.png" class="img-flid"></figure>
                     </div>
-                </div>
-                <div class="col-lg-4 mt-4 ">
-                    <div class="second-heading">
-                        <div class="icon-heading-wrapper">
-                            <img src="img/Group-4808.png" alt="">
-                            <h5>Celeste Slater 606-3727 Ullamcorper.
-                                Street Roseville NH 11523 (786) 713-8616</h5>
-                        </div>
-                        <div class="icon-heading-wrapper">
-                            <img src="img/Group 4806.png" alt="">
-                            <h5>012-345-678</h5>
-                        </div>
-                        <div class="icon-heading-wrapper1">
-                            <img src="img/" alt="">
-                            <h5>Duis aute irure dolor in reprehenderit in voluptate velit
-                                esse cillum dolore eu fugiat nulla pariatur</h5>
-                        </div>
+                    <div class="profile-name">
+                        <h3>Mason Law</h3>
                     </div>
-                </div>
-                <div class="col-lg-3 align-self-start  ">
-                    <div class="buttons text-center  ">
-                        <div class="dbl-btn ">
-                            <button class="btn1">
-                                Write a review
-                            </button>
-                        </div>
-                        <div class="dbl-btn">
-                            <button class="btn2">
-                                File Complaint
-                            </button>
-                        </div>
+                    <div class="profile-info">
+                        <p class="member flexDv"><span class="property">Member Since:</span> <span class="value">5
+                                August 2022</span></p>
+                        <p class="member flexDv"><span class="property">Total Posts:</span> <span
+                                class="value">25</span></p>
                     </div>
+                    <div class="profile-about">
+                        <h4 class="title">About</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm tempor incididunt ut
+                            labore et dolore magna aliqua. Luctus acc tortor posuere ac ut consequat.
+                        </p>
+                    </div>
+                    <a href="editprofile.php" class="btn"> Hire Now</a>
+                    <a href="editprofile.php" class="btn1"> Message</a>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-9">
                 <div class="tabs-list-wrapper">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
@@ -110,7 +80,7 @@
                                     <a href="single-post.php">
                                         <div class="user-details">
                                             <div class="img_box">
-                                                <figure><img src="img/Group-4702.png" class="img-fluid"></figure>
+                                                <figure><img src="img/user1.png" class="img-fluid"></figure>
                                             </div>
                                             <div class="details">
                                                 <h5 class="name">Terri Wilkes</h5>
@@ -214,7 +184,7 @@
                                     <a href="single-post.php">
                                         <div class="user-details">
                                             <div class="img_box">
-                                                <figure><img src="img/Group-4702.png" class="img-fluid"></figure>
+                                                <figure><img src="img/user1.png" class="img-fluid"></figure>
                                             </div>
                                             <div class="details">
                                                 <h5 class="name">Terri Wilkes</h5>
@@ -318,7 +288,7 @@
                                     <a href="single-post.php">
                                         <div class="user-details">
                                             <div class="img_box">
-                                                <figure><img src="img/Group-4702.png" class="img-fluid"></figure>
+                                                <figure><img src="img/user1.png" class="img-fluid"></figure>
                                             </div>
                                             <div class="details">
                                                 <h5 class="name">Terri Wilkes</h5>
@@ -422,7 +392,7 @@
                                     <a href="single-post.php">
                                         <div class="user-details">
                                             <div class="img_box">
-                                                <figure><img src="img/Group-4702.png" class="img-fluid"></figure>
+                                                <figure><img src="img/user1.png" class="img-fluid"></figure>
                                             </div>
                                             <div class="details">
                                                 <h5 class="name">Terri Wilkes</h5>
@@ -526,7 +496,7 @@
                                     <a href="single-post.php">
                                         <div class="user-details">
                                             <div class="img_box">
-                                                <figure><img src="img/Group-4702.png" class="img-fluid"></figure>
+                                                <figure><img src="img/user1.png" class="img-fluid"></figure>
                                             </div>
                                             <div class="details">
                                                 <h5 class="name">Terri Wilkes</h5>
@@ -630,7 +600,7 @@
                                     <a href="single-post.php">
                                         <div class="user-details">
                                             <div class="img_box">
-                                                <figure><img src="img/Group-4702.png" class="img-fluid"></figure>
+                                                <figure><img src="img/user1.png" class="img-fluid"></figure>
                                             </div>
                                             <div class="details">
                                                 <h5 class="name">Terri Wilkes</h5>
@@ -743,7 +713,7 @@
                                     <a href="single-newsfeed.php">
                                         <div class="user-details">
                                             <div class="img_box">
-                                                <figure><img src="img/Group-4702.png" class="img-fluid"></figure>
+                                                <figure><img src="img/user1.png" class="img-fluid"></figure>
                                             </div>
                                             <div class="details">
                                                 <h5 class="name">Terri Wilkes</h5>
@@ -875,10 +845,10 @@
                                     <a href="single-newsfeed.php">
                                         <div class="user-details">
                                             <div class="img_box">
-                                                <figure><img src="img/Group-4702.png" class="img-fluid"></figure>
+                                                <figure><img src="img/user1.png" class="img-fluid"></figure>
                                             </div>
                                             <div class="details">
-                                                <h5 class="name">Terri Wilkes</h5>
+                                                <h5 class="name">Selina Kyle</h5>
                                                 <p class="times_ago">Posted 3 Hours Ago</p>
                                             </div>
                                         </div>
@@ -992,67 +962,6 @@
     </div>
 
 </section>
-<!-- This example is based on codrop's awesome collection of modal window styles: https://tympanus.net/Development/ModalWindowEffects/ 
-
-The main change i made is not centering the .md-modal with transforms, as it makes the text blurry on some non-retina screens
--->
-
-
-<div class="md-modal md-effect-12">
-    <div class="tabs-list-wrappe1">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item1">
-                <a class="nav-link1 active" id="modal-tab" data-toggle="tab" href="#modal" role="tab"
-                    aria-controls="modal" aria-selected="true">Write A Review</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="modal2-tab" data-toggle="tab" href="#modal" role="tab" aria-controls="profile"
-                    aria-selected="false">File Complaint </a>
-            </li>
-        </ul>
-    </div>
-    <div class="tabs-content-wrapper">
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="modal" role="tabpanel" aria-labelledby="modal-tab">
-                <div class="modal-img-wrapeer">
-                    <div class="img-heading">
-                        <figure>
-                            <img src="img/Ellipse25.png" alt="">
-                        </figure>
-                        <div class="para-heading">
-                            <h4>Hi ! Selina Kyle</h4>
-                            <p>Write your Review</p>
-                        </div>
-                        <form>
-                            <div class="custom-control custom-switch">
-                                <input type="checkbox" class="custom-control-input" id="switch1">
-                                <label class="custom-control-label" for="switch1">Toggle me</label>
-                            </div>
-                        </form>
-                    </div>
-                    <form action="">
-                        <div class="form">
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1"></label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                    placeholder="Write Post Title "></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1"></label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="Write Post Description">
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-
-
 <!-- Profile Sec End Here -->
 
 <!-- Footer Include Here -->

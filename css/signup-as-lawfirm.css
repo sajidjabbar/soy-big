@@ -16,6 +16,16 @@
     font-size: 25px;
 
 }
+.uploader label {
+    border: 2px solid #a4a9a4;
+    border-radius: 84%;
+    padding: 20px;
+    width: 91px;
+}
+.fa {
+    font-size: 41px;
+    color: #707070;
+}
 .sign-up-heading-wrapper h6 {
     color:#6E6E6E;
     font-weight: 400;

@@ -1,3 +1,7 @@
+.signup{
+    display: flex;
+    align-items: center;
+}
 .signup .sign-up-box-wrapper {
     background: #fff;
     padding: 27px;
@@ -5,32 +9,17 @@
     box-shadow: 0px 0px 10px 4px #a4a9a4;
     margin: 100px -53px;
     padding: 50px 90px;
-    position: relative;
 }
-
 .signup .sign-up-heading-wrapper {
     margin-bottom: 28px;
 }
 .signup .sign-up-heading-wrapper h4 {
-    color:#555555 ;
-    font-weight: 600;
+    color: #31007B;
+    text-transform: capitalize;
+    font-weight: 500;
     font-family: "work sans";
     font-size: 25px;
-}
-.signup .sign-up-heading-wrapper span {
-    width: 24%;
-    background: #C8C8C8;
-    position: absolute;
-    height: 1px;
-    top: 68px;
-    left: 0px;
-}
-.signup .sign-up-heading-wrapper .border {
-    width: 25%;
-    background: #C8C8C8;
-    position: absolute;
-    height: 1px;
-    left: 485px;
+
 }
 .sign-up-heading-wrapper h6 {
     color:#6E6E6E;

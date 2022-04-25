@@ -23,15 +23,15 @@
                     <div class="profile-about ">
                         <ul class="link">
                             <li>
-                                <a href=""> Account
+                                <a href="editaccount3.php"> Account
                                 </a>
                             </li>
-                            <li></i><a href=""> security
+                            <li></i><a href="password3.php"> security
                                 </a></li>
-                            <li></i><a href=""> Posts
+                            <li></i><a href="home-bast1.php"> Posts
                                 </a></li>
 
-                            <li><a href=""> messages
+                            <li><a href="newfeed-chat.php"> messages
                                 </a></li>
                         </ul>
                     </div>

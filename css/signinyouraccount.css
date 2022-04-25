@@ -1,3 +1,7 @@
+.signup{
+    display: flex;
+    align-items: center;
+}
 .signup .sign-up-box-wrapper {
     background: #fff;
     padding: 27px;
@@ -5,32 +9,16 @@
     box-shadow: 0px 0px 10px 4px #a4a9a4;
     margin: 100px -53px;
     padding: 50px 90px;
-    position: relative;
 }
-
 .signup .sign-up-heading-wrapper {
     margin-bottom: 28px;
 }
 .signup .sign-up-heading-wrapper h4 {
-    color:#555555 ;
-    font-weight: 600;
+    color: #B2B2B2;
+    text-transform: capitalize;
+    font-weight: 400;
     font-family: "work sans";
-    font-size: 25px;
-}
-.signup .sign-up-heading-wrapper span {
-    width: 24%;
-    background: #C8C8C8;
-    position: absolute;
-    height: 1px;
-    top: 68px;
-    left: 0px;
-}
-.signup .sign-up-heading-wrapper .border {
-    width: 25%;
-    background: #C8C8C8;
-    position: absolute;
-    height: 1px;
-    left: 485px;
+    font-size: 14px;
 }
 .sign-up-heading-wrapper h6 {
     color:#6E6E6E;
@@ -51,6 +39,12 @@
     font-family: 'Work sans';
     font-size: 17px;
     margin: 10px 0px
+}
+input::placeholder{
+    font-family: 'Work sans';
+    font-size: 15px;
+    font-weight: 300;
+    color: #B2B2B2;
 }
 .sign-up-box-wrapper input.form-control::placeholder{
     font-family: 'Work sans';
@@ -114,3 +108,77 @@ input[type=checkbox]:checked:after {
 .signup .img-uplo-wrapper input[type="file"] {
     margin-right: -99px;
 }   
+.forget{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+span{
+    font-size: 14px;
+    color: #B2B2B2;
+    opacity: 0.7;
+    margin-left: 10px;
+}
+.abcd{
+    position: relative;
+    text-align: center;
+}
+.signup .sign-up-heading-wrapper {
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.signup .sign-up-heading-wrapper span {
+    width: 41%;
+    background: #C8C8C8;
+    position: absolute;
+    height: 2px;
+    top: 17px;
+    left: -10px;
+}
+.signup .sign-up-heading-wrapper .border {
+    width: 41%;
+    background: #C8C8C8;
+    position: absolute;
+    height: 2px;
+    left: 265px;
+    top: 17px;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 8px;
+}
+.abcd span{
+    z-index: -1 !important;
+    padding: 0px 12px;
+    background-color:red;
+}
+.or{
+    background-color: #fff;
+}
+  .company button {
+    font-family: 'Work Sans';
+    color: var(--first-color);;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    /* background: var(--first-color); */
+    background-color: #fff;
+    border: 1px solid var(--first-color);
+    border-radius: 0px;
+    transition: all 0.3s ease-in-out;
+}
+.join button {
+    font-family: 'Work Sans';
+    color: var(--first-color);
+    /* background: var(--first-color); */
+    border-radius: 0px;
+    width: 100%;
+    border: transparent;
+    margin-top: 10px;
+    /* border: 1px solid var(--first-color); */
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+}

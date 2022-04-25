@@ -3,7 +3,7 @@
 <!-- App Include Here -->
 
 <!-- Stylesheet -->
-<link rel="stylesheet" href="css/accountchange.css">
+<link rel="stylesheet" href="css/editprofile2.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Stylesheet -->
 
@@ -14,12 +14,11 @@
             <div class="col-md-2 px-0 ">
                 <div class="profile-details">
                     <div class="profile-img">
-                        <figure><img src="img/Group-4702.png" class="img-flid"></figure>
-                        <figure class="img"> <img src="img/Group 4769.png" alt=""> </figure>
+                        <figure><img src="img/Ellipse-41.png" class="img-flid"></figure>
                     </div>
                     <div class="profile-name">
-                        <h3>Eco Focus</h3>
-                        <p>Law firm</p>
+                        <h3>Selina kyle</h3>
+                        <p>Normal user</p>
                     </div>
                     <div class="profile-about ">
                         <ul class="link">
@@ -29,15 +28,14 @@
                             </li>
                             <li></i><a href=""> security
                                 </a></li>
-                                <li></i><a href=""> Posts
-                                </a></li>
+
 
                             <li><a href=""> messages
-                                </a>
-                            </li>
+                                </a></li>
 
                         </ul>
                     </div>
+
                 </div>
             </div>
             <div class="col-md-10">
@@ -51,28 +49,32 @@
                                     placeholder="Selina">
                             </div>
                             <div class="form-group">
-                                <label for="exampleFormControlInput1">Email</label>
+                                <label for="exampleFormControlInput1">Last name</label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder=" Kyle">
+                                    placeholder="kyle">
                             </div>
                         </div>
                         <div class="name">
-                            <div class="form-group0">
-                                <label for="exampleFormControlTextarea1">About</label>
-                                <textarea class="form-control1" id="exampleFormControlTextarea1" rows="3"
-                                    placeholder="Selina"></textarea>
-                            </div>
-                            <div class="form-group1">
-                                <label for="exampleFormControlSelect1">Phone Number</label>
-                                <input class="form-control" id="exampleFormControlSelect1"
-                                    placeholder="Selina@gmail.com">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Email</label>
+                                <input class="form-control" id="exampleFormControlSelect1" placeholder="Selina@gmail.com">
                                 </input>
-                                <div class="foam-btns">
-                                    <a href="#"><button>Save Changes</button></a>
-                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Phone Number</label>
+                                <input class="form-control" id="exampleFormControlSelect1" placeholder="Selina@gmail.com">
+                                </input>
                             </div>
                         </div>
-
+                        <div class="problems">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">About</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="lorem ipsum Dolar sir amet Consectetur"></textarea>
+                        </div>
+                        <div class="foam-btns">
+                                <a href="#"><button>Save Changes</button></a>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

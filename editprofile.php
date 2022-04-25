@@ -26,16 +26,12 @@
                                 <a href=""> Account
                                 </a>
                             </li>
-                            <li></i><a href=""> security
+                            <li></i><a href="password.php"> security
                                 </a></li>
-
-
-                            <li><a href=""> messages
+                            <li><a href="newfeed-chat.php"> messages
                                 </a></li>
-
                         </ul>
                     </div>
-
                 </div>
             </div>
             <div class="col-md-10">

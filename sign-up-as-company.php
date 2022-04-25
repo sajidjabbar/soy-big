@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="css/sign-up-as-company.CSS">
 <!-- css file ends here -->
 <!-- sign up as a user section starts here -->
-<section class="signup my-5">
+<section class="signup">
     <div class="container">
         <div class="row ">
             <div class="col-lg-3"></div>
@@ -12,10 +12,17 @@
                     <div class="sign-up-heading-wrapper ">
                         <h4>Sign Up As a Company</h4>
                         <h6>Et netus et malesuada fames. Dolor magna eget est lorem ipsum.</h6>
+                        <div class="uploader">
+                        <label for="abc">
+                        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                            <input type="file" hidden id="abc">
+                        </label>
+                        <h5 class="heading">Upload Logo</h5>
+                        </div>
                     </div>
 
                     <div class="sign-up-form-wrapper">
-                        <form action="sign-up.php">
+                     <form action="editaccount2.php">
                             <div class="form-group row">
 
                                 <div class="col-lg-12">
@@ -34,8 +41,9 @@
 
                             <div class="form-group row">
                                 <div class="col-lg-12">
-                                    <a href="sign-in.php">
+                                    <a href="editaccount2.php">
                                         <button class="form-control btn" type="submit"> Sign Up </button>
+
                                 </div>
                             </div>
                         </form>
@@ -47,4 +55,4 @@
     </div>
 </section>
 <!-- sign up as a user section ends here -->
-<?php include 'inc/footer.php'; ?>
+<?php include 'inc/footerlinks.php'; ?>

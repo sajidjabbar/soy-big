@@ -1,8 +1,4 @@
 .signup{
-    
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
     display: flex;
     align-items: center;
 }
@@ -106,3 +102,19 @@ input[type=checkbox]:checked:after {
 .signup .img-uplo-wrapper input[type="file"] {
     margin-right: -99px;
 }   
+.uploader label{
+        border: 2px solid #a4a9a4;
+        border-radius: 84%;
+        padding: 20px;
+        width: 91px;
+}
+.fa{
+    font-size: 41px;
+    color: #707070;
+}
+h5 {
+    font-size: 24px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #31007B;
+}

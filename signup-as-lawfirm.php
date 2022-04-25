@@ -12,15 +12,22 @@
                     <div class="sign-up-heading-wrapper ">
                         <h4>Sign Up as Lawfirm</h4>
                         <h6>Et netus et malesuada fames. Dolor magna eget est lorem ipsum.</h6>
+                        <div class="uploader">
+                        <label for="abc">
+                        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                            <input type="file" hidden id="abc">
+                        </label>
+                        <h5 class="heading">Upload Logo</h5>
+                        </div>
                     </div>
                     <div class="sign-up-form-wrapper">
-                        <form action="sign-in.php">
+                        <form action="editaccount3.php">
                             <div class="form-group row">
                                 <div class="col-lg-6">
                                     <input type="text" class="form-control" placeholder="Company Name" required>
                                 </div>
                                 <div class="col-lg-6">
-                                    <input type="email" class="form-control" placeholder="Last Name" required>
+                                    <input type="name" class="form-control" placeholder="Last Name" required>
                                 </div>
                                 <div class="col-lg-12">
                                     <input type="text" class="form-control" placeholder="Username" required>
@@ -38,8 +45,9 @@
 
                             <div class="form-group row">
                                 <div class="col-lg-12">
-                                    <a href="sign-in.php">
+                                    <a href="editaccount3.php">
                                         <button class="form-control btn" type="submit"> Sign Up </button>
+                                    </a>
                                    
                                 </div>
                             </div>

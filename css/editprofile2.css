@@ -1,12 +1,12 @@
 /* Profile Css Start Here */
 .profile_sec {
     padding: 60px 0;
-    margin-bottom: 70px;
+    margin-bottom: 250px;
 }
 
 .profile_sec .profile-details {
     background: #fff;
-    padding: 0px 25px 25px;
+    padding: 11px 26px 25px;
     width: 100%;
 }
 
@@ -16,9 +16,11 @@
 }
 
 .profile-img figure img {
-    width: 80%;
+    width: 100%;
 }
-
+.foam-btns i.fa.fa-pencil {
+    margin-left: 11px;
+}
 .profile_sec .profile-details .profile-name {
 
     margin-bottom: 20px;
@@ -27,7 +29,7 @@
 }
 
 .profile_sec .profile-details .profile-name h3 {
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Work Sans";
     font-size: 25px;
     margin-bottom: 0;
@@ -47,9 +49,9 @@
 }
 
 .profile_sec .profile-details .profile-about {
-    padding-top: 10px;
-    margin-left: -40px;
+    padding-top: 20px;
 }
+
 .profile_sec .profile-details .profile-about h4.title {
     font-family: "Aileron";
     font-size: 18px;
@@ -71,14 +73,43 @@
 
 .fa-play:before {
     font-size: 15px;
-    margin-right: 3px;
+    margin-right: 10px;
     margin-top: -2px;
 }
-.form-control::placeholder {
-    font-size: 15px;
-    color: #C9C9C9;
-    font-weight: 400;
-    font-family: "Work Sans";
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+.form-group {
+    margin-bottom: 1rem;
+    margin-right: 90px;
+}
+.foam-btns button {
+    background-color: #31007b;
+    color: #fff;
+    font-size: 16px;
+    padding: 3px 19px;
+    border: 1px solid #31007b;
+    border-radius: 0;
+    font-weight: 600 !important;
+    font-family: "work sans";
+    
+    margin-top: 27px;
+    margin-left: 39px;
+    width: 152px;
+    height: 40px;
+}
+.form-container {
+    width: 100%;
+    height: 491px;
+    padding-left: 51px;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 6px 57px 28px;
+}
+.profile_sec .profile-details .profile-about {
+    margin-left: -40px;
 }
 .profile-about li {
     list-style: none;
@@ -101,84 +132,65 @@
 .profile-about li a:active{
     color: #000000;
 }
-.name {
-    display: flex;
-    flex-direction: row;
-}
-
-.form-container {
-    width: 100%;
-    height: 400px;
-    padding-left: 51px;
-    background: #fff;
-    box-shadow: 0px 0px 10px #ddd;
-    padding: 6px 57px 25px;
-}
-
 .form-container h3 {
     margin-top: 20px;
-    font-family: "work sans";
-    font-size: 22px;
-    font-weight: 600;
-    color: #000000;
+    margin-left: 37px;
 }
-
 .form-control {
-    width: 141%;
-    height: 42px;
-    padding-top: 10px;
-}
-.problems .form-control {
-    width: 64%;
+    width: 109%;
+    margin: -10px 37px;
+    width: 114%;
     resize: none;
-}
-
-input#exampleFormControlInput1::placeholder {
     font-size: 15px;
     font-weight: 400;
-    font-family: "work sans";
+    font-family: "Work Sans";
+    color: #DCDCDC !important;
+    height: 40px;
 }
-.form-group {
-    margin-bottom: 1rem;
-    margin-right: 130px;
+.problems .form-control {
+    width: 95%;
+    resize: none;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Work Sans";
+    color: #DCDCDC !important;
+    FONT-VARIANT: JIS04;
+    height: 166%;
+    padding: 19px 14px;
+}
+
+input#exampleFormControlInput1 ::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Work Sans";
+    color: #DCDCDC !important;
 }
 
 label {
     font-size: 15px;
     color: #000000;
     font-weight: 500;
+    margin-left: 40px;
+    line-height: 41px;
 }
-.foam-btns button {
-    background-color: #31007b;
-    color: #fff;
-    font-size: 16px;
-    padding: 7px 20px;
-    border: 1px solid #31007b;
-    border-radius: 0;
-    font-weight: 600 !important;
-    margin-top: 31px;
-    font-family: "Work Sans";
-}
-p{
-    margin-bottom: 0;
-}
-.fa-play:before {
-    content: "\f04b";
-    font-size: 10px;
-}
-h4 {
-    font-size: 18px;
-    line-height: 35px;
-    font-weight: 100;
-    margin-bottom: 0;
-}
-h3 {
-    font-family: "Aileron";
-    font-size: 26px;
+input#exampleFormControlInput1::placeholder{
+    font-size: 15px;
     font-weight: 400;
-    color: #000000;
+    font-family: "Work Sans";
+    color: #B2B2B2 !important;
 }
-
+input#exampleFormControlSelect1::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Work Sans";
+    color: #B2B2B2 !important;
+}
+textarea#exampleFormControlTextarea1::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Work Sans";
+    color: #B2B2B2 !important;
+}
 
 @media (max-width: 768px) {
     .name {
@@ -191,9 +203,7 @@ h3 {
         resize: none;
 
     }
-    .foam-btns button {
-        margin-top: 0;
-    }
+
     .problems .form-control {
         width: 100%;
     }
@@ -207,28 +217,12 @@ h3 {
         color: #000000;
         font-weight: 500;
     }
-    .form-container {
-        width: 100%;
-        height: 468px;
-    }
 }
-
 
 /* Profile Css End Here */
 
 
 /* Post Css End Here */
-
-
-
-
-
-
-
-
-
-
-
 
 
 

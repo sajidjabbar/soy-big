@@ -14,8 +14,8 @@
             <div class="col-md-2 px-0 ">
                 <div class="profile-details">
                     <div class="profile-img">
-                        <figure><img src="img/Group-4702.png" class="img-flid"></figure>
-                        <figure class="img"> <img src="img/Group 4769.png" alt=""> </figure>
+                        <figure><img src="img/account2.png" class="img-flid"></figure>
+                        
                     </div>
                     <div class="profile-name">
                         <h3>Eco Focus </h3>

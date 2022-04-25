@@ -20,14 +20,23 @@
                     <h3>Eco Focus</h3>
                         <p>Law Film</p>
                     </div>
-                    <div class="profile-about">
-                        <h4 class="title"><i class="fa fa-play"></i>Account </h4>
-                        <p>
-                            security <br>
-                            posts
-                            <br>
-                            messages
-                        </p>
+                    <div class="profile-about ">
+                        <ul class="link">
+                            <li>
+                                <a href=""> Account
+                                </a>
+                            </li>
+                            <li></i><a href=""> security
+                                </a></li>
+                                <li></i><a href=""> Posts
+                                </a></li>
+
+                            
+                            <li><a href=""> messages
+                                </a>
+                            </li>
+
+                        </ul>
                     </div>
 
                 </div>
@@ -47,11 +56,11 @@
                             </div>
                         </div>
                         <div class="name">
-                        <div class="form-group">
+                        <div class="form-group0">
                                 <label for="exampleFormControlTextarea1">About</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="lorem ipsum Dolar sir amet Consectetur"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Selina"></textarea>
                             </div>
-                            <div class="form-group">
+                            <div class="form-group1">
                                 <label for="exampleFormControlSelect1">Phone Number</label>
                                 <input class="form-control" id="exampleFormControlSelect1" placeholder="Selina@gmail.com">
                                 </input>

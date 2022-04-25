@@ -1,5 +1,5 @@
 <!-- App Include Here -->
-<?php include 'inc/app.php';?>
+<?php include 'inc/app.php'; ?>
 <!-- App Include Here -->
 
 <!-- Body Content Start Here -->
@@ -14,7 +14,8 @@
             <div class="banner_content">
                 <div class="row">
                     <div class="col-lg-9">
-                        <h2 class="font-weight-bold title wow animate__animated animate__fadeInDown">No #1 Platform Where<br /> Buyer &
+                        <h2 class="font-weight-bold title wow animate__animated animate__fadeInDown">No #1 Platform
+                            Where<br /> Buyer &
                             Seller Trust Eachother</h2>
                         <p class="wow animate__animated animate__fadeInDown animate__delay-1s">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -256,7 +257,8 @@
         <div class="row align-items-center">
             <div class="col-lg-7">
                 <div class="contentBox">
-                    <h3 class="font-weight-bold title wow animate__animated animate__fadeInDown">Report & Review What Scams<br />
+                    <h3 class="font-weight-bold title wow animate__animated animate__fadeInDown">Report & Review What
+                        Scams<br />
                         Are Trending Near You</h3>
                     <p class="wow animate__animated animate__fadeInDown animate__delay-1s">
                         Et netus et malesuada fames. Dolor magna eget est lorem ipsum.
@@ -283,7 +285,7 @@
 <!-- Report Sec End Here -->
 
 <!-- Reviews Sec Start Here -->
-<section class="reviews_sec my-5">
+<!-- <section class="reviews_sec my-5">
     <div class="heading_wrapper wow animate__animated animate__fadeInDown">
         <h3 class="font-weight-bold">Recent Reviews</h3>
     </div>
@@ -456,10 +458,10 @@
                 </div>
             </div>
         </div>
-    </div>
-   <!-- <div class="reviews_slider_two">-->
-       <!-- <div class="reviews_box">-->
-           <!-- <div class="topbar">-->
+    </div> -->
+<!-- <div class="reviews_slider_two">-->
+<!-- <div class="reviews_box">-->
+<!-- <div class="topbar">-->
 <!--                <div class="img_box">-->
 <!--                    <figure><img src="img/review.png" class="img-fluid"></figure>-->
 <!--                </div>-->
@@ -627,9 +629,9 @@
 <!--            </div>-->
 <!--        </div>-->
 <!--    </div> -->
-    <div class="button-groups">
-        <a href="sign-up.php" class="btn">Join Now</a>
-    </div>
+<!-- <div class="button-groups">
+    <a href="sign-up.php" class="btn">Join Now</a>
+</div> -->
 </section>
 <!-- Reviews Sec End Here -->
 
@@ -644,7 +646,8 @@
             </div>
             <div class="col-lg-6">
                 <div class="contentBox">
-                    <h3 class="font-weight-bold title wow animate__animated animate__fadeInDown animate__delay-1s">Join as a law firm to
+                    <h3 class="font-weight-bold title wow animate__animated animate__fadeInDown animate__delay-1s">Join
+                        as a law firm to
                         contribute<br />
                         With SOY big Co</h3>
                     <p class="wow animate__animated animate__fadeInDown animate__delay-2s">
@@ -674,7 +677,8 @@
         <div class="row align-items-center">
             <div class="col-lg-7">
                 <div class="contentBox">
-                    <h3 class="font-weight-bold title wow animate__animated animate__fadeInDown">Now You Can Download Our
+                    <h3 class="font-weight-bold title wow animate__animated animate__fadeInDown">Now You Can Download
+                        Our
                         Application to get the most out
                         of SOY big</h3>
                     <p class="wow animate__animated animate__fadeInDown animate__delay-1s">
@@ -710,7 +714,7 @@
                     <figure><img src="img/screen2.png" class="img-fluid"></figure>
                     <figure><img src="img/screen1.png" class="img-fluid"></figure>
                     <figure><img src="img/screen3.png" class="img-fluid"></figure>
-                    <figure><img src="img/screen2.png" class="img-fluid"></figure> 
+                    <figure><img src="img/screen2.png" class="img-fluid"></figure>
                     <!-- <figure><img src="img/screen1.png" class="img-fluid"></figure> 
                     <figure><img src="img/screen3.png" class="img-fluid"></figure>  -->
                 </div>
@@ -771,6 +775,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="blogs wow animate__animated animate__fadeInDown animate__delay-4s">
+                <div class="for-center">
                     <div class="img_box">
                         <figure><img src="img/blog3.png" alt="" class="img-fluid"></figure>
                     </div>
@@ -782,6 +787,7 @@
                         <a href="#" class="lnk font-weight-bold">Read More</a>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
         <div class="button-group wow animate__animated animate__rubberBand animate__delay-5s">
@@ -790,7 +796,76 @@
     </div>
 </section>
 <!-- Blog Sec End Here -->
+<!-- client Testimonials sec start here -->
+<section class="clienttestimonials-sec">
+    <div class="container">
+        <div class="clientsec-heading">
+            <h3 class="font-weight-bold title wow animate__animated animate__fadeInDown"> client testimonials</h3>
+        </div>
+        <div class="row align-items-center client">
 
+            <div class="col-md-4 text-center tester">
+                <div class="blogs wow animate__animated animate__fadeInDown animate__delay-1s">
+                <div class="for-center">
+                    <div class="client-testimonials-1">
+                        <div class="clent-name">
+                            <h4>hector robertson</h4>
+                        </div>
+                        <div class="about-client">
+                            <p>Et netus et malesuada frame. Dolar magna eget est lorem ipsum marbi tempus laculis urna
+                                id volupay Quis
+                                commoda adio aanaan sed adipiscing diam donec.ac felis donec et odio pellentesque</p>
+                        </div>
+                        <div class="client-img">
+                            <img src="img/ellipse-53.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 tester">
+                <div class="blogs wow animate__animated animate__fadeInDown animate__delay-1s">
+                    <div class="for-center">
+                    <div class="client-testimonials-2 text-center">
+                        <div class="clent-name2">
+                            <h4>hector robertson</h4>
+                        </div>
+                        <div class="about-client2">
+                            <p>Et netus et malesuada frame. Dolar magna eget est lorem ipsum marbi tempus laculis urna
+                                id volupay Quis
+                                commoda adio aanaan sed adipiscing diam donec.ac felis donec et odio pellentesque</p>
+                        </div>
+                        <div class="client-img">
+                            <img src="img/ellipse-54.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-4 text-center tester">
+                <div class="blogs   wow animate__animated animate__fadeInDown animate__delay-1s">
+                    <div class="client-testimonials-1">
+                        <div class="clent-name">
+                            <h4>hector robertson</h4>
+                        </div>
+                        <div class="about-client">
+                            <p>Et netus et malesuada frame. Dolar magna eget est lorem ipsum marbi tempus laculis urna
+                                id volupay Quis
+                                commoda adio aanaan sed adipiscing diam donec.ac felis donec et odio pellentesque</p>
+                        </div>
+                        <div class="client-img">
+                            <img src="img/ellipse-56.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- client Testimonials sec end here -->
 <!-- Client Review Start Here -->
 <!--<section class="blog_sec">-->
 <!--    <div class="container">-->
@@ -807,5 +882,5 @@
 <!-- Body Content End Here -->
 
 <!-- Footer Include Here -->
-<?php include 'inc/footer.php';?>
+<?php include 'inc/footer.php'; ?>
 <!-- Footer Include Here -->
